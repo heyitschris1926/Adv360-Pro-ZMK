@@ -38,11 +38,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 2                                                           &mo 4      &kp N6   &kp N7  &kp N8      &kp N9     &kp N0    &kp C_AL_WWW
-&kp TAB    &kp B      &kp L     &kp D     &kp W      &kp Z   &none                                                            &none      &kp SQT  &kp F   &kp O       &kp U      &kp J     &kp SEMICOLON
-&kp ESC    &kp N      &kp R     &kp T     &kp S      &kp G   &none      &kp LCTRL       &kp LALT        &kp LGUI   &kp RCTRL  &none      &kp Y    &kp H   &kp A       &kp E      &kp I     &kp COMMA
-&kp LSHFT  &kp Q      &kp X     &kp M     &kp C      &kp V                              &kp K_COPY      &kp PG_UP                        &kp K    &kp P   &kp PERIOD  &kp MINUS  &kp FSLH  &kp RSHFT
-&mo 3      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp SPACE  &kp LEFT_SHIFT  &kp END         &kp PG_DN  &kp ENTER  &kp SPACE           &kp UP  &kp DOWN    &kp LBKT   &kp RBKT  &mo 3
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 2                                                             &mo 4          &kp N6   &kp N7  &kp N8      &kp N9     &kp N0    &kp C_AL_WWW
+&kp TAB    &kp B      &kp L     &kp D     &kp W      &kp Z   &none                                                              &none          &kp SQT  &kp F   &kp O       &kp U      &kp J     &kp SEMICOLON
+&kp ESC    &kp N      &kp R     &kp T     &kp S      &kp G   &none      &kp LCTRL       &kp LALT        &kp LGUI     &kp RCTRL  &none          &kp Y    &kp H   &kp A       &kp E      &kp I     &kp COMMA
+&kp LSHFT  &kp Q      &kp X     &kp M     &kp C      &kp V                              &kp K_UNDO      &kp K_FIND                             &kp K    &kp P   &kp PERIOD  &kp MINUS  &kp FSLH  &kp RSHFT
+&mo 3      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp SPACE  &kp LEFT_SHIFT  &kp K_COPY      &kp K_PASTE  &kp ENTER  &kp BACKSPACE           &kp UP  &kp DOWN    &kp LBKT   &kp RBKT  &mo 3
             >;
         };
 
