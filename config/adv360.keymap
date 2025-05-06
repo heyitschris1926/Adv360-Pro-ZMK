@@ -49,11 +49,11 @@
 
         NAVIGATE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans              &trans          &trans               &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp LC(LEFT_ARROW)  &kp UP_ARROW    &kp RC(RIGHT_ARROW)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans              &trans          &trans               &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans              &trans          &trans               &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans            &trans                &trans            &trans               &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans            &kp LC(LEFT_ARROW)    &kp UP_ARROW      &kp RC(RIGHT_ARROW)  &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LS(LC(LEFT))  &kp LEFT_ARROW        &kp DOWN_ARROW    &kp RIGHT_ARROW      &kp LS(LC(RIGHT))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans            &kp LC(UP_ARROW)      &kp LC(DOWN)      &trans               &trans             &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                    &kp LS(LC(UP_ARROW))  &kp LS(LC(DOWN))  &trans               &trans             &trans
             >;
         };
 
