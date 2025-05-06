@@ -49,11 +49,11 @@
 
         NAVIGATE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                            &trans       &trans        &trans                &trans            &trans           &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                            &trans       &kp K_CUT     &kp K_COPY            &kp UP_ARROW      &kp K_PASTE      &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans                 &trans      &trans  &trans  &trans       &kp LC(LEFT)  &kp LEFT_ARROW        &kp DOWN_ARROW    &kp RIGHT_ARROW  &kp LC(RIGHT)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                        &trans      &trans                       &trans        &kp LC(UP_ARROW)      &kp LC(DOWN)      &trans           &trans         &trans
-&trans  &trans  &trans  &trans  &trans          &kp BACKSPACE  &hm LEFT_SHIFT DELETE  &trans      &trans  &trans  &kp K_PASTE                &kp LS(LC(UP_ARROW))  &kp LS(LC(DOWN))  &trans           &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                            &trans       &trans        &trans            &trans          &trans           &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                            &trans       &kp K_CUT     &kp K_COPY        &kp UP_ARROW    &kp K_PASTE      &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans                 &trans      &trans  &trans  &trans       &kp LC(LEFT)  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(RIGHT)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                        &trans      &trans                       &trans        &kp LC(UP_ARROW)  &kp LC(DOWN)    &trans           &trans         &trans
+&trans  &trans  &trans  &trans  &trans          &kp BACKSPACE  &hm LEFT_SHIFT DELETE  &trans      &trans  &trans  &kp K_PASTE                &none             &none           &trans           &trans         &trans
             >;
         };
 
